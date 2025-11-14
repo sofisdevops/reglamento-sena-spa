@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sena-green: #007A33;
+  --sena-orange: #F39200;
+}
+
+.text-senaGreen {
+  color: var(--sena-green);
+}
+.bg-senaGreen {
+  background-color: var(--sena-green);
+}
+.bg-senaOrange {
+  background-color: var(--sena-orange);
+}
+.hover\:bg-senaGreen:hover {
+  background-color: var(--sena-green);
+}
